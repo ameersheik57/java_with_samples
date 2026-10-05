@@ -9,7 +9,7 @@ public class WordsInStringWithMap {
 
         String statement = "Hello Sheik Ameer";
 
-        String words[] = statement.split(" ");
+        String[] words = statement.split(" ");
 
         Map<String, String> wordsWithMap = new HashMap<>();
 

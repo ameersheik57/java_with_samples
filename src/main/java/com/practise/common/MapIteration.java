@@ -17,7 +17,7 @@ public class MapIteration {
         for(Map.Entry<String, Object> entry: data.entrySet())
             System.out.println(entry);
 
-        Iterator i = data.entrySet().iterator();
+        Iterator<Map.Entry<String, Object>> i = data.entrySet().iterator();
 
         while (i.hasNext()) {
             System.out.println(i.next());
